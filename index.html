@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discos Violet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DISCOS VIOLET</h1>
+    <p>Compre com a Discos Violet!</p>
+  </header>
+
+  <main id="produtos-container">
+    <!-- Produto 1 -->
+    <div class="produto">
+      <img src="aftercare.webp" alt="Aftercare">
+      <h2>Aftercare</h2>
+      <p><strong>Artista:</strong> Nessa Barrett</p>
+      <p><strong>Gênero:</strong> Dark Pop</p>
+      <p><strong>Preço:</strong> R$ 189,90</p>
+      <button onclick="comprar('Aftercare')">Comprar</button>
+    </div>
+
+    <!-- Produto 2 -->
+    <div class="produto">
+      <img src="eden.webp" alt="Eden">
+      <h2>Eden</h2>
+      <p><strong>Artista:</strong> Ashley Sienna</p>
+      <p><strong>Gênero:</strong> Indie Pop</p>
+      <p><strong>Preço:</strong> R$ 159,90</p>
+      <button onclick="comprar('Eden')">Comprar</button>
+    </div>
+
+    <!-- Produto 3 -->
+    <div class="produto">
+      <img src="avisa que é o funk.jpg" alt="Avisa que é o Funk">
+      <h2>Avisa que é o Funk</h2>
+      <p><strong>Artista:</strong> MC Hariel</p>
+      <p><strong>Gênero:</strong> Funk</p>
+      <p><strong>Preço:</strong> R$ 129,90</p>
+      <button onclick="comprar('Avisa que é o Funk')">Comprar</button>
+    </div>
+
+    <!-- Produto 4 -->
+    <div class="produto">
+      <img src="hellboy.png" alt="Hellboy">
+      <h2>Hellboy</h2>
+      <p><strong>Artista:</strong> Lil Peep</p>
+      <p><strong>Gênero:</strong> Emo Rap</p>
+      <p><strong>Preço:</strong> R$ 199,90</p>
+      <button onclick="comprar('Hellboy')">Comprar</button>
+    </div>
+
+    <!-- Produto 5 -->
+    <div class="produto">
+      <img src="ultraviolence.webp" alt="Ultraviolence">
+      <h2>Ultraviolence</h2>
+      <p><strong>Artista:</strong> Lana Del Rey</p>
+      <p><strong>Gênero:</strong> Pop Alternativo</p>
+      <p><strong>Preço:</strong> R$ 229,90</p>
+      <button onclick="comprar('Ultraviolence')">Comprar</button>
+    </div>
+  </main>
+
+<script>
+  function comprar(nomeProduto) {
+    alert(`Você comprou: ${nomeProduto}`);
+    console.log(`Você comprou: ${nomeProduto}`);
+  }
+</script>
+</body>
+</html>

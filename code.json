@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "Aftercare",
+    "artista": "Nessa Barrett",
+    "genero": "Dark Pop",
+    "preco": 189.90,
+    "imagem": "aftercare.jpg"
+  },
+  {
+    "nome": "Eden",
+    "artista": "Ashley Sienna",
+    "genero": "Indie Pop",
+    "preco": 159.90,
+    "imagem": "eden.jpg"
+  },
+  {
+    "nome": "Avisa que é o Funk",
+    "artista": "MC Hariel",
+    "genero": "Funk",
+    "preco": 129.90,
+    "imagem": "avisa-funk.jpg"
+  },
+  {
+    "nome": "Hellboy",
+    "artista": "Lil Peep",
+    "genero": "Emo Rap",
+    "preco": 199.90,
+    "imagem": "hellboy.jpg"
+  },
+  {
+    "nome": "Ultraviolence",
+    "artista": "Lana Del Rey",
+    "genero": "Pop Alternativo",
+    "preco": 229.90,
+    "imagem": "ultraviolence.jpg"
+  }
+]
